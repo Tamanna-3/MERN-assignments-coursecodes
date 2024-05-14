@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMS</title>
+    <style>
+        h1{
+            color: #1798fa;
+            font-style: italic;
+            padding-left: 300px;
+            margin-left: 100px;
+           
+        }
+
+        div{
+            color: #000000;
+           font-style: bold;
+           font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+        form{
+            background-color: rgb(255, 245, 232);
+        }
+
+      
+    </style>
+</head>
+<body>
+    <h1>
+          Student Registration For MERN Full Stack
+         <img src="Cat Tip Sticker - Cat Tip - Discover & Share GIFs.gif" alt="kitty" width="200" height="100">
+    </h1>
+
+    <form action="backend.php">
+        
+
+        <fieldset>
+        <legend>Form:</legend>
+        <div> Name: <input type="text"/>             Surname: <input type="text"/>               
+        </div> 
+        <br>
+        
+        <div>
+            Roll Number: <input type="email" value=""/>    
+        </div>
+        <br>
+        
+
+        <div>
+            DOB: <input type="date" value="date"/>
+        </div><br>
+
+
+        <div>
+            Email: <input type="email" value=""/>
+        </div><br>
+   
+
+        <div>
+            Password: <input type="password" value=""/>
+        </div><br>
+        
+        <div>
+            <label for="Age">Course: </label>
+            <select name="mycourse" id="course">
+                <option value="1"> Computer science</option>
+                <option value="2"> Cyber Security </option>
+                <option value="3"> Artificial Intelligence </option>
+                <option value="4"> Machine Learning  </option>
+                <option value="5"> Robotics </option>
+            </select>
+
+        </div><br>
+
+        <div>
+            <label for="sem">Semester: </label>
+            <select name="mycourse" id="course">
+                <option value="1"> 1st</option>
+                <option value="2"> 2nd</option>
+                <option value="2"> 3rd</option>
+                <option value="2"> 4th</option>
+                <option value="2"> 5th</option>
+                <option value="2"> 6th</option>
+                <option value="2"> 7th</option>
+                <option value="2"> 8th</option>
+               
+
+            </select>
+
+        </div><br>
+
+       
+        
+
+        <div>
+            <label for="Age">Age: </label>
+            <select name="myage" id="age">
+                <option value="1">20 </option>
+                <option value="2">19 </option>
+                <option value="3">20 </option>
+                <option value="4">21 </option>
+
+            </select>
+
+        </div><br>
+
+        <div>
+            Gender: <input type="radio" name="my gender"/> Male  <input type="radio" name="my gender"/> Female <input type="radio" name="my gender"/> Transgender 
+        </div><br>
+        
+       
+        <button type="button" onclick="alert('YOUR RESPONSE HAVE BEEN RECORDED')">Submit</button>
+        <button type="reset" value="reset">Reset</button>
+        <input type="image" class="image1" src="Loli Dance Sticker - Loli Dance Dance Move - Discover & Share GIFs.gif"  onclick="alert('KAWAII')" alt="kitty" width="160" height="300">
+        <br>
+       
+    </fieldset>
+    </form>
+</body>
+</html>
